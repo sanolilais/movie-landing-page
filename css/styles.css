@@ -1,0 +1,90 @@
+body {
+  background-color: #fabae1;
+}
+
+.menu {
+  display: flex;
+  gap: 35px;
+  margin: 30px;
+  justify-content: right;
+}
+
+
+.menu-item {
+  font-family: Rubik;
+  font-size: 18px;
+  color: hsl(225, 88%, 19%);
+  list-style: none;
+  text-decoration: none;
+
+
+}
+
+
+.content-page {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 614px;
+  margin: 50px;
+  align-items: center;
+  background-color: #FFB5E3;
+  border-radius: 30px;
+}
+
+.main-image {
+  height: 614px;
+}
+
+#first-image-carousel {
+  width: 500px;
+  height: 614px;
+  border-radius: 30px;
+  box-shadow: 3px 12px 30px rgba(0, 0, 0, 0.5)
+}
+
+
+.texts {
+  margin: 15px;
+  font-family: Rubik;
+  color: hsl(225, 88%, 19%);
+}
+
+.movie-name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 45px;
+  margin: 20px;
+}
+
+.stars {
+  margin: 18px;
+  display: flex;
+}
+
+.description-movie {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin: 22px;
+  line-height: 32px;
+}
+
+.tags {
+  display: flex;
+  margin: 10px;
+}
+
+.premiere-date {
+  margin: 22px;
+  font-weight: 700;
+}
+
+.tag-one {
+  background-color: #1CACEA;
+  border-radius: 27px;
+  width: 110px;
+  text-align: center;
+  margin: 7px;
+  height: 42px;
+  font-size: 14px;
+}
